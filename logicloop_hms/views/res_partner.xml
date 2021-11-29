@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+        <record id="res_partner_inherit_form_health_center_view" model="ir.ui.view">
+            <field name="name">res.partner.inherit.form.health.center.view</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form" />
+            <field name="arch" type="xml">
+                <notebook>
+                    <page string="Medical">
+                        <group colspan="6" col="6">
+                            <field name="is_patient" />
+                            <field name="is_doctor" />
+                        </group>
+                    </page>
+                </notebook>
+            </field>
+        </record>
+
+</odoo>
+

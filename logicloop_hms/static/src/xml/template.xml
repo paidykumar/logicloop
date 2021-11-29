@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<templates xml:space="preserve">
+    <t t-name="ValidateMobileNumber">
+        <div t-if="embedCode" >
+            <t t-raw="embedCode" readonly="0"/>
+        </div>
+    </t>
+</templates>
